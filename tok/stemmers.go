@@ -6,27 +6,27 @@
 package tok
 
 import (
-	"github.com/blevesearch/bleve/v2/analysis"
-	_ "github.com/blevesearch/bleve/v2/analysis/lang/ar" // Needed for bleve language support.
-	_ "github.com/blevesearch/bleve/v2/analysis/lang/cjk"
-	_ "github.com/blevesearch/bleve/v2/analysis/lang/ckb"
-	_ "github.com/blevesearch/bleve/v2/analysis/lang/da"
-	_ "github.com/blevesearch/bleve/v2/analysis/lang/de"
-	_ "github.com/blevesearch/bleve/v2/analysis/lang/es"
-	_ "github.com/blevesearch/bleve/v2/analysis/lang/fi"
-	_ "github.com/blevesearch/bleve/v2/analysis/lang/fr"
-	_ "github.com/blevesearch/bleve/v2/analysis/lang/hi"
-	_ "github.com/blevesearch/bleve/v2/analysis/lang/hu"
-	_ "github.com/blevesearch/bleve/v2/analysis/lang/it"
-	_ "github.com/blevesearch/bleve/v2/analysis/lang/nl"
-	_ "github.com/blevesearch/bleve/v2/analysis/lang/no"
-	_ "github.com/blevesearch/bleve/v2/analysis/lang/pt"
-	_ "github.com/blevesearch/bleve/v2/analysis/lang/ro"
-	_ "github.com/blevesearch/bleve/v2/analysis/lang/ru"
-	_ "github.com/blevesearch/bleve/v2/analysis/lang/sv"
-	_ "github.com/blevesearch/bleve/v2/analysis/lang/tr"
-	_ "github.com/blevesearch/bleve/v2/analysis/token/porter"
 	"github.com/golang/glog"
+	"github.com/knights-analytics/indexer/analysis"
+	_ "github.com/knights-analytics/indexer/analysis/lang/ar" // Needed for bleve language support.
+	_ "github.com/knights-analytics/indexer/analysis/lang/cjk"
+	_ "github.com/knights-analytics/indexer/analysis/lang/ckb"
+	_ "github.com/knights-analytics/indexer/analysis/lang/da"
+	_ "github.com/knights-analytics/indexer/analysis/lang/de"
+	_ "github.com/knights-analytics/indexer/analysis/lang/es"
+	_ "github.com/knights-analytics/indexer/analysis/lang/fi"
+	_ "github.com/knights-analytics/indexer/analysis/lang/fr"
+	_ "github.com/knights-analytics/indexer/analysis/lang/hi"
+	_ "github.com/knights-analytics/indexer/analysis/lang/hu"
+	_ "github.com/knights-analytics/indexer/analysis/lang/it"
+	_ "github.com/knights-analytics/indexer/analysis/lang/nl"
+	_ "github.com/knights-analytics/indexer/analysis/lang/no"
+	_ "github.com/knights-analytics/indexer/analysis/lang/pt"
+	_ "github.com/knights-analytics/indexer/analysis/lang/ro"
+	_ "github.com/knights-analytics/indexer/analysis/lang/ru"
+	_ "github.com/knights-analytics/indexer/analysis/lang/sv"
+	_ "github.com/knights-analytics/indexer/analysis/lang/tr"
+	_ "github.com/knights-analytics/indexer/analysis/token/porter"
 )
 
 var langStemmers = map[string]string{

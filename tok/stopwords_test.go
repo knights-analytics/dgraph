@@ -8,7 +8,7 @@ package tok
 import (
 	"testing"
 
-	"github.com/blevesearch/bleve/v2/analysis"
+	"github.com/knights-analytics/indexer/analysis"
 	"github.com/stretchr/testify/require"
 )
 
